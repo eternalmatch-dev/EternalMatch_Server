@@ -1,0 +1,14 @@
+{
+  "name": "eternal_token_server",
+  "version": "1.0.0",
+  "description": "Eternal Token Server for Agora",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
