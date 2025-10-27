@@ -46,6 +46,12 @@ app.get("/token", (req, res) => {
 });
 
 // تشغيل السيرفر
+
+// Route رئيسية للصفحة الرئيسية
+app.get('/', (req, res) => {
+    res.send('Eternal Token Server is running!');
+});
+
 app.listen(PORT, () => {
   console.log(`✅ Eternal Token Server running on port ${PORT}`);
 });
